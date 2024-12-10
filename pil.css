@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: gray ;
+}
+
+.pimg1{
+    background-image: url(images/viray\ kohli\ T20.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(images/Virat\ kohli\ ODI.jpg);
+    min-height: 550px;
+}
+.pimg3{
+    background-image: url(images/virat\ kohli\ test.jpg);
+    min-height: 550px;
+}
+         
+
+.pimg1,
+.pimg2{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.textbg{
+    background: rgb(62, 60, 60);
+    color: whitesmoke;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.abott{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:rgb(82, 95, 100) ;
+    color: whitesmoke;
+
+}
+
+.abott h2{
+    text-transform: capitalize;
+    font-weight: 650;
+}
+
+.king{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:rgb(61, 68, 85) ;
+    color: whitesmoke;
+
+}
+
+.king h2{
+    text-transform: capitalize;
+    font-weight: 650;
+}
+
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ftext{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.text{
+    background: rgb(62, 60, 60);
+    color: whitesmoke;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.chasemaster{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:rgb(61, 68, 85) ;
+    color: whitesmoke;
+}
+
+.chasemaster h2{
+    text-transform: capitalize;
+    font-weight: 650;
+}
